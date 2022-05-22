@@ -1,0 +1,7 @@
+Student Attendance  
+1. David: Present
+2. Jhon: Absent
+3. Marry: Present
+4. Jake: Present
+5. Nick: Absent
+6. Olivia: Absent

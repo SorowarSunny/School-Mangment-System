@@ -1,0 +1,7 @@
+Student result  
+Roll_no:  
+Bangla: 
+English:  
+Math: 
+Science :  
+ICT : 

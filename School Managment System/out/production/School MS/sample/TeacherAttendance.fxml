@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="437.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeacherController">
+   <children>
+      <Pane prefHeight="55.0" prefWidth="600.0">
+         <children>
+            <Label prefHeight="55.0" prefWidth="628.0" style="-fx-background-color: #48c9b0;" text="                                     Students List" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox layoutY="55.0" prefHeight="345.0" prefWidth="199.0">
+         <children>
+            <Label prefHeight="39.0" prefWidth="204.0" text="        1. David" textAlignment="CENTER" textFill="#48c9b0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="10.0" prefHeight="39.0" prefWidth="204.0" text="        2. Jhon" textFill="#48c9b0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="49.0" prefHeight="39.0" prefWidth="204.0" text="        3. Marry" textAlignment="CENTER" textFill="#48c9b0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="88.0" prefHeight="39.0" prefWidth="204.0" text="        4. Jake" textFill="#48c9b0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="127.0" prefHeight="39.0" prefWidth="204.0" text="        5. Nick" textFill="#48c9b0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="39.0" prefWidth="204.0" text="        6. Olivia" textFill="#48c9b0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="300.0" layoutY="55.0" prefHeight="345.0" prefWidth="91.0">
+         <children>
+            <RadioButton fx:id="PresentA" mnemonicParsing="false" pickOnBounds="false" prefHeight="40.0" prefWidth="91.0" text="Present">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="TGA" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="PresentB" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="91.0" text="Present">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="TGB" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="PresentC" layoutX="10.0" layoutY="39.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="91.0" text="Present">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="TGC" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="PresentD" layoutX="10.0" layoutY="68.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="91.0" text="Present">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="TGD" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="PresentE" layoutX="10.0" layoutY="97.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="Present">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="TGE" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="PresentF" mnemonicParsing="false" prefHeight="35.0" prefWidth="91.0" text="Present">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="TGF" />
+               </toggleGroup>
+            </RadioButton>
+         </children>
+      </VBox>
+      <VBox layoutX="409.0" layoutY="55.0" prefHeight="345.0" prefWidth="107.0">
+         <children>
+            <RadioButton fx:id="AbsentA" mnemonicParsing="false" pickOnBounds="false" prefHeight="34.0" prefWidth="91.0" text="Absent" toggleGroup="$TGA">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="AbsentB" layoutX="10.0" layoutY="51.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="91.0" text="Absent" toggleGroup="$TGB">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="AbsentC" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="91.0" text="Absent" toggleGroup="$TGC">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="AbsentD" layoutX="10.0" layoutY="92.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="91.0" text="Absent" toggleGroup="$TGD">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="AbsentE" layoutX="10.0" layoutY="133.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="91.0" text="Absent" toggleGroup="$TGE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="AbsentF" mnemonicParsing="false" prefHeight="32.0" prefWidth="91.0" text="Absent" toggleGroup="$TGF">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </VBox>
+      <Button fx:id="UpdateA" layoutX="225.0" layoutY="317.0" mnemonicParsing="false" onAction="#update_attend" prefHeight="23.0" prefWidth="149.0" style="-fx-background-color: #a6ff00;" text="Update">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
